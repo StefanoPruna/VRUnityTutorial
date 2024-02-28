@@ -15,7 +15,7 @@ C:/Users/makem/Documents/GitHub/VRUnityTutorial
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50313
+64702
 Successfully changed project path to: C:/Users/makem/Documents/GitHub/VRUnityTutorial
 C:/Users/makem/Documents/GitHub/VRUnityTutorial
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/makem/Documents/GitHub/VRUnityTutorial
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28716] Host "[IP] 192.168.0.247 [Port] 0 [Flags] 2 [Guid] 3103019782 [EditorId] 3103019782 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28764] Host "[IP] 192.168.0.247 [Port] 0 [Flags] 2 [Guid] 1348313765 [EditorId] 1348313765 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28716] Host "[IP] 192.168.0.247 [Port] 0 [Flags] 2 [Guid] 3103019782 [EditorId] 3103019782 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28764] Host "[IP] 192.168.0.247 [Port] 0 [Flags] 2 [Guid] 1348313765 [EditorId] 1348313765 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 462.71 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.93 ms.
+Refreshing native plugins compatible for Editor in 908.13 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.42 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/makem/Documents/GitHub/VRUnityTutorial/Assets
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -78,47 +78,47 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.012340 seconds.
-- Loaded All Assemblies, in  0.332 seconds
+Registered in 0.022106 seconds.
+- Loaded All Assemblies, in  0.424 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 299 ms
+Android Extension - Scanning For ADB Devices 335 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.627 seconds
-Domain Reload Profiling: 958ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1166ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (100ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (124ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (126ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (149ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (628ms)
+	FinalizeReload (744ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (578ms)
+		SetupLoadedEditorAssemblies (675ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (432ms)
+			InitializePlatformSupportModulesInManaged (493ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,8 +126,8 @@ Domain Reload Profiling: 958ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.920 seconds
-Refreshing native plugins compatible for Editor in 34.91 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.860 seconds
+Refreshing native plugins compatible for Editor in 20.28 ms, found 13 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -162,51 +162,50 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.806 seconds
-Domain Reload Profiling: 1722ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 1869ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (624ms)
-		LoadAssemblies (511ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (427ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (186ms)
-				TypeCache.ScanAssembly (169ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (806ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1014ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (637ms)
+		SetupLoadedEditorAssemblies (790ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (374ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (484ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 36.26 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 6207 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 112 unused Assets / (406.8 KB). Loaded Objects now: 6686.
-Memory consumption went from 236.6 MB to 236.2 MB.
-Total: 6.060900 ms (FindLiveObjects: 1.014000 ms CreateObjectMapping: 0.571700 ms MarkObjects: 4.118100 ms  DeleteObjects: 0.355300 ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 19.71 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 6369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 120 unused Assets / (0.7 MB). Loaded Objects now: 6864.
+Memory consumption went from 250.6 MB to 249.9 MB.
+Total: 4.127700 ms (FindLiveObjects: 0.441300 ms CreateObjectMapping: 0.213300 ms MarkObjects: 3.181200 ms  DeleteObjects: 0.291000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
@@ -218,6 +217,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22395.339309 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Honesty.mat
+  artifactKey: Guid(0a9dca16f027daa41b20cdda3ee17aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Honesty.mat using Guid(0a9dca16f027daa41b20cdda3ee17aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9421fa553612243032718ee7774034bb') in 0.634617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 5.053426 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Honesty.prefab
+  artifactKey: Guid(0016c340f5d82ff48b1756e37efa425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Honesty.prefab using Guid(0016c340f5d82ff48b1756e37efa425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ba4809010e45c2a526399db2dec368') in 0.256078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Plasma.prefab
+  artifactKey: Guid(38833800f7af1784180d220b342afb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Plasma.prefab using Guid(38833800f7af1784180d220b342afb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cffaa47e8699932cf5abf0c64a06d6') in 0.257008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.506644 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Broken_Roughness.png
+  artifactKey: Guid(85cf9c7c043b4cd4f92937b7b70a987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Broken_Roughness.png using Guid(85cf9c7c043b4cd4f92937b7b70a987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebe1e7b2297d40deb6e98eb7e41dc9a') in 0.075995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Honesty_MetallicSmoothness.png
+  artifactKey: Guid(1108c3c29fd53f340b10bb08fe14c015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Honesty_MetallicSmoothness.png using Guid(1108c3c29fd53f340b10bb08fe14c015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c19d13386d8ed92c1ce1c8e6755036') in 0.091330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Honesty_Normal.png
+  artifactKey: Guid(ed1ba48a0f69b714b85e7e15cf9a2313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Honesty_Normal.png using Guid(ed1ba48a0f69b714b85e7e15cf9a2313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f643ed96bbf09fce72b7230c194f1528') in 0.087488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Defeated_MetallicSmoothness.png
+  artifactKey: Guid(23fcd34207fd05b4fa104d14acca9590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Defeated_MetallicSmoothness.png using Guid(23fcd34207fd05b4fa104d14acca9590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664d2b8df7cd16653e6798f03ec91528') in 0.076156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Plasma_Emission.png
+  artifactKey: Guid(1e6b32ed5a9fcba47a55618d867c0694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Plasma_Emission.png using Guid(1e6b32ed5a9fcba47a55618d867c0694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59973f3552e276a4c600eeea2cfbb08f') in 0.064855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Magma_Roughness.png
+  artifactKey: Guid(82e56beab738cc949a76a4ebfa957eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Magma_Roughness.png using Guid(82e56beab738cc949a76a4ebfa957eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4f1b08a5dc14596ffc62f077cb701c') in 0.064626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Plasma_Roughness.png
+  artifactKey: Guid(a4476af1bdff8ce4b899b825cc2828df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Plasma_Roughness.png using Guid(a4476af1bdff8ce4b899b825cc2828df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26f70615ac98a96ea4f9d76f346b89a') in 0.059969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Nightstrike_Roughness.png
+  artifactKey: Guid(caa7d3de033fa5b49a9defa0c953c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures/Sword_Cyber_Nightstrike_Roughness.png using Guid(caa7d3de033fa5b49a9defa0c953c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678771a0451a6f4a5a330b4effb9fbd1') in 0.065733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
